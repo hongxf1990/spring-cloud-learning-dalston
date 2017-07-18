@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:1201/ #配置中心config-server的地址
+      profile: default #对应配置文件规则中的{profile}部分
+      label: master #对应配置文件规则中的{label}部分
+      name: config-client #对应配置文件规则中的{application}部分
+server:
+  port: 2001

@@ -2,13 +2,14 @@ package com.petter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
-@EnableEurekaServer
+@EnableConfigServer
 @SpringBootApplication
-public class ComputeServiceApplication {
+public class ConfigServerGitApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EurekaServerApplication.class, args);
+		SpringApplication.run(ConfigServerGitApplication.class, args);
 	}
+
 }

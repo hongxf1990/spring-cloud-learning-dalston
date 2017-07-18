@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hongxf1990/spring-cloud-learning-dalston
+          search-paths: config-repo-demo
+          username: hongxf1990
+          password: 1990/hong
+server:
+  port: 1201
