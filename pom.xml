@@ -15,6 +15,8 @@
         <module>eureka-consumer-feign</module>
         <module>config-server-git</module>
         <module>config-client</module>
+        <module>eureka-consumer-ribbon-hystrix</module>
+        <module>hystrix-dashboard</module>
     </modules>
     <packaging>pom</packaging>
 
